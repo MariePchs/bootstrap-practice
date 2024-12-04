@@ -1,0 +1,51 @@
+.accordion-button {
+  margin: 10px;
+
+  border: none;
+  border-radius: 3px;
+}
+
+.accordion-body {
+  background-color: #a8cdf3;
+}
+
+.scrolling-container {
+  overflow: hidden;
+
+  width: 100%;
+
+  white-space: nowrap;
+
+  background-color: #f8f9fa;
+}
+
+.scrolling-text {
+  display: inline-block;
+
+  padding-right: 50%;
+
+  -webkit-animation: scroll-text 20s linear infinite;
+          animation: scroll-text 20s linear infinite;
+}
+
+@-webkit-keyframes scroll-text {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-text {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}

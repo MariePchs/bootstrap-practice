@@ -1,0 +1,30 @@
+.accordion-button {
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+}
+.accordion-body{
+  background-color: #a8cdf3;
+}
+
+.scrolling-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap; 
+  background-color: #f8f9fa;
+}
+
+.scrolling-text {
+  display: inline-block; 
+  animation: scroll-text 20s linear infinite; 
+  padding-right: 50%;
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
